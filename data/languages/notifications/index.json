@@ -1,0 +1,30 @@
+{
+    "updated": {
+        "en": "Updated successfully!",
+        "ru": "Успешно обновлено!"
+    },
+    "notAuth": {
+        "en": "You are not authorized!",
+        "ru": "Вы не авторизованы!"
+    },
+    "successAdded": {
+        "en": "Added successfully!",
+        "ru": "Успешно добавлено!"
+    },
+    "successAddedCart": {
+        "en": "Added to cart successfully!",
+        "ru": "Успешно добавлено в корзину!"
+    },
+    "wrong": {
+        "en": "Something went wrong! Try again later!",
+        "ru": "Что-то пошло не так! Повторите позже!"
+    },
+    "successRemove": {
+        "en": "Remove successfully!",
+        "ru": "Удалено успешно!"
+    },
+    "successSubscribed": {
+        "en": "You have successfully subscribed",
+        "ru": "Ваша подписка успешно оформлена"
+    }
+}

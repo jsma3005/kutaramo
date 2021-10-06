@@ -1,0 +1,50 @@
+{
+    "chooseFace": {
+        "en": "Choose face",
+        "ru": "Выберите лицо"
+    },
+    "details": {
+        "en": "details",
+        "ru": "детали"
+    },
+    "methodPayment": {
+        "en": "Choose payment method",
+        "ru": "Выбрать методы платежа"
+    },
+    "continue": {
+        "en": "continue",
+        "ru": "продолжить"
+    },
+    "back": {
+        "en": "go back",
+        "ru": "назад"
+    },
+    "finish": {
+        "en": "complete",
+        "ru": "завершить"
+    },
+    "cardPayment": {
+        "en": "Transfer to card",
+        "ru": "Перевод на карту"
+    },
+    "checkPayment": {
+        "en": "Bank transfers to current account",
+        "ru": "Банковские переводы на расчетный счёт"
+    },
+    "orderProcessed": {
+        "en": "order is processed",
+        "ru": "заказ оформлен"
+    },
+    "goBack": {
+        "en": "go back",
+        "ru": "назад"
+    },
+    "purchasesTitle": {
+        "en": "Purchases",
+        "ru": "Покупки"
+    },
+    "emptyCart": {
+        "en": "Cart is empty!",
+        "ru": "Корзина пуста!"
+    }
+}

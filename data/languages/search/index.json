@@ -1,0 +1,30 @@
+{
+    "enter": {
+        "en": "ENTER SEARCH TERMS",
+        "ru": "ЧТО ВЫ ИЩЕТЕ?"
+    },
+    "search": {
+        "en": "search",
+        "ru": "поиск"
+    },
+    "recent": {
+        "en": "recent",
+        "ru": "недавние"
+    },
+    "empty": {
+        "en": "empty",
+        "ru": "пусто"
+    },
+    "emptyInput": {
+        "en": "The field must not be empty",
+        "ru": "Поле не должно быть пустым"
+    },
+    "longSearchText": {
+        "en": "The field must be less than 30 characters",
+        "ru": "Поле не должно содержать более 30 символов"
+    },
+    "notFound": {
+        "en": "Not found!",
+        "ru": "Не найдено!"
+    }
+}

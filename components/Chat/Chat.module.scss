@@ -1,0 +1,119 @@
+.root{
+    position: fixed;
+    top: 90%;
+    right: 0;
+    z-index: 2 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    .closedChat{
+        position: absolute;
+        right: 0;
+        border: 2px solid #000000;
+        padding: 16px 22px;
+        display: flex;
+        background-color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        transition: .3s;
+        .chatTitle{
+            margin-right: 12px;
+            font-size: 16px;
+        }
+    }
+    .openedChat{
+        transition: .7s;
+        position: absolute;
+        bottom: 0;
+        right: -350px;
+        width: 350px;
+        height: auto;
+        border: 2px solid #000;
+        background-color: #fff;
+        .header{
+            padding: 0 20px;
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #000;
+            svg{
+                cursor: pointer;
+            }
+        }
+        .chat{
+            height: 300px;
+            padding: 15px;
+            line-height: 1.5;
+            overflow: auto;
+            .welcomeMessage{
+                width: 70%;
+                margin: 0 auto;
+                font-size: 12px;
+                font-weight: normal;
+                padding: 5px 15px;
+                text-align: center;
+                border-radius: 50px;
+                display: block;
+                background-color: rgba(0, 0, 0, 0.1);
+                color: #000;
+            }
+        }
+        .input{
+            padding-left: 15px;
+            padding-bottom: 15px;
+            display: flex;
+            input{
+                font-family: 'Montserrat', sans-serif;
+                width: 100%;
+                border: 1px solid #000;
+                border-radius: 0;
+                padding: 15px;
+                &::placeholder{
+                    font-weight: bold;
+                    color: #000;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
+            }
+            button{
+                padding: 15px;
+                background-color: #000;
+                color: #fff;
+                text-transform: uppercase;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+                font-family: 'Montserrat', sans-serif;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+
+.active{
+    .closedChat{
+        right: -150px;
+    }
+    .openedChat{
+        right: 0px;
+    }
+}
+
+@media (max-width: 992px){
+    .root{
+        .closedChat{
+            padding: 10px;
+            width: 90px;
+            .chatTitle{
+                margin-right: 12px;
+                font-size: 12px;
+            }
+            span{
+                display: contents;
+            }
+        }
+    }
+}

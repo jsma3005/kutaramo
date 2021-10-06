@@ -1,0 +1,250 @@
+.container{
+    .slider{
+        padding: 0 40px;
+        padding-top: 80px;
+        .sliderItem{
+            cursor: pointer;
+            width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            img {
+                width: 100%;
+            }
+            .title{
+                font-size: 96px;
+                margin-top: 58px;
+                text-align: left;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .loader{
+        height: 100%;
+        margin: 200px 0;
+    }
+}
+
+.nextBtn{
+    color: #000;
+}
+.prevBtn{
+    color: #000;
+}
+
+
+@media (max-width: 1650px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 1100px;
+                .title{
+                    font-size: 80px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1550px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 1000px;
+                .title{
+                    font-size: 70px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1450px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 900px;
+                .title{
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1350px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 800px;
+                .title{
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1250px){
+    .container{
+        .slider{
+            .sliderItem{
+                .title{
+                    font-size: 55px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .container{
+        .slider{
+            padding: 0 10px;
+            padding-top: 50px;
+            .sliderItem{
+                .title{
+                    margin-top: 30px;
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 720px;
+                .title{
+                    margin-top: 30px;
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .container{
+        .loader{
+            margin: 130px 0;
+        }
+        .slider{
+            .sliderItem{
+                width: 650px;
+                .title{
+                    margin-top: 30px;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 550px;
+                .title{
+                    margin-top: 30px;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 775px){
+    .container{
+        height: 100vh;
+        .loader{
+            margin: 100px 0;
+        }
+        .slider{
+            .sliderItem{
+                width: 650px;
+                .title{
+                    margin-top: 30px;
+                    font-size: 40px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 550px;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px){
+    .container{
+        .loader{
+            margin: 80px 0;
+        }
+        .slider{
+            padding-top: 25px;
+            .sliderItem{
+                width: 450px;
+                .title{
+                    font-size: 35px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 475px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 400px;
+                .title{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 350px;
+                .title{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 380px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 320px;
+            }
+        }
+    }
+}
+
+@media (max-width: 340px){
+    .container{
+        .slider{
+            .sliderItem{
+                width: 300px;
+            }
+        }
+    }
+}

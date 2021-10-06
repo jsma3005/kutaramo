@@ -1,0 +1,231 @@
+.root{
+    width: 380px;
+    height: 100vh;
+    padding: 25px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: -380px;
+    background-color: #fff;
+    box-shadow: -2px 0px 6px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    transition: .4s;
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+        span{
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .clear{
+            color: rgba(0, 0, 0, 0.3);
+            &:hover{
+                color: rgba(0, 0, 0, 0.7);
+            }
+        }
+        .close{
+            color: #000;
+        }
+    }
+    .filter{
+        margin-top: 4rem;
+        h1{
+            font-size: 22px;
+            font-weight: 700;
+            margin: 2rem 0;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            li{
+                align-items: center;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.3);
+                text-transform: uppercase;
+                cursor: pointer;
+                letter-spacing: 1.2px;
+                &:not(:last-child){
+                    margin-bottom: 1rem;
+                }
+                &:hover{
+                    color: rgba(0, 0, 0, 0.7);
+                }
+            }
+            .activeFilter{
+                color: #000;
+            }
+            .disabled{
+                cursor: no-drop;
+                &:hover{
+                    color: rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+        .colorsFlex{
+            display: flex;
+            margin-top: 20px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            .colorItem{
+                cursor: pointer;
+                border-radius: 50%;
+                padding: 5px;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                margin-bottom: 15px;
+                &:not(:last-child){
+                    margin-right: 15px;
+                }
+                &:hover{
+                    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                }
+                div{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                }
+            }
+            .activeColorItem{
+                box-shadow: 0 0 10px #ccc;
+                &:hover{
+                    box-shadow: 0 0 10px #ccc;
+                }
+            }
+        }
+    }
+}
+
+
+.active{
+    right: 0 !important;
+}
+
+@media (max-width: 1400px){
+    .root{
+        .filter{
+            h1{
+                font-size: 20px;
+            }
+            ul{
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .root{
+        width: 300px;
+        right: -300px;
+    }
+}
+
+@media (max-width: 850px){
+    .root{
+        .buttons{
+            .clear, .close{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .root{
+        .filter{
+            h1{
+                font-size: 18px;
+                margin: 1.7rem 0;
+            }
+            ul{
+                li{
+                    font-size: 12px;
+                }
+            }
+            .colorsFlex{
+                .colorItem{
+                    div{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px){
+    .root{
+        width: 250px;
+        right: -250px;
+        padding: 20px 15px;
+        .filter{
+            margin-top: 3rem;
+            .colorsFlex{
+                .colorItem{
+                    margin-bottom: 10px;
+                    &:not(:last-child){
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .root{
+        .filter{
+            h1{
+                font-size: 16px;
+            }
+        }
+        .buttons{
+            .clear, .close{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px){
+    .root{
+        width: 200px;
+        right: -200px;
+        .buttons{
+            .clear, .close{
+                font-size: 10px;
+            }
+        }
+        .filter{
+            h1{
+                font-size: 14px;
+                margin: 1.3rem 0;
+            }
+            ul{
+                li{
+                    font-size: 10px;
+                }
+            }
+            .colorsFlex{
+                .colorItem{
+                    padding: 3px;
+                    margin-bottom: 8px;
+                    &:not(:last-child){
+                        margin-right: 8px;
+                    }
+                    div{
+                        width: 17px;
+                        height: 17px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,214 @@
+.root{
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 50px 200px;
+    .goBack{
+        cursor: pointer;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .authContainer{
+        margin-top: 180px;
+        display: flex;
+        .authTitle{
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        .login{
+            margin-right: 200px;
+            .inputGroup{
+                display: flex;
+                flex-direction: column;
+                .forgotPass{
+                    font-size: 12px;
+                    color: #000;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                }
+                .logInBtn{
+                    text-transform: uppercase;
+                    margin-top: 50px;
+                }
+                .errorText{
+                    font-size: 12px;
+                    margin-top: .5rem;
+                    display: block;
+                    color: #ff3333;
+                    font-weight: normal;
+                    width: 100%;
+                    line-height: 1.5;
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+        .register{
+            width: 500px;
+            text-transform: uppercase;
+            p{
+                font-size: 16px !important;
+                font-weight: 500;
+                margin-bottom: 24px;
+                line-height: 1.5;
+            }
+            .logUpBtn{
+                margin-top: 50px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1350px){
+    .root{
+        .authContainer{
+            .authTitle{
+                font-size: 30px;
+            }
+            .login{
+                margin-right: 200px;
+            }
+            .register{
+                p{
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1250px){
+    .root{
+        padding: 50px 150px;
+    }
+}
+
+@media (max-width: 1100px){
+    .root{
+        padding: 50px 100px;
+        .authContainer{
+            .authTitle{
+                font-size: 25px;
+            }
+            .register{
+                width: 50%;
+                text-align: right;
+                p{
+                    font-size: 13px !important;
+                }
+            }
+            .login{
+                width: 50%;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .root{
+        padding: 30px 80px;
+    }
+}
+
+@media (max-width: 800px){
+    .root{
+        .authContainer{
+            .authTitle{
+                font-size: 22px;
+            }
+            .register{
+                p{
+                    font-size: 12px !important;
+                }
+            }
+            .login{
+                .inputGroup{
+                    .logInBtn{
+                        font-size: 12px !important;
+                    }
+                }
+            }
+            .register{
+                .logUpBtn{
+                    font-size: 12px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 750px){
+    .root{
+        .goBack{
+            font-size: 16px;
+        }
+        .authContainer{
+            margin-top: 120px;
+            flex-direction: column;
+            .login{
+                margin-bottom: 70px;
+                width: 100%;
+                text-align: center;
+                input{
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            .register{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px){
+    .root{
+        .goBack{
+            font-size: 15px;
+        }
+        .authContainer{
+            margin-top: 70px;
+            .login{
+                margin-bottom: 70px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .root{
+        padding: 15px 40px;
+    }
+}
+
+@media (max-width: 450px){
+    .root{
+        margin-top: 30px;
+        .goBack{
+            font-size: 12px;
+        }
+        .authContainer{
+            margin-top: 40px;
+            .authTitle{
+                font-size: 20px;
+            }
+            .register{
+                p{
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 430px){
+    .root{
+        padding: 20px;
+        margin-top: 0;
+    }
+}

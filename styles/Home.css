@@ -1,0 +1,141 @@
+.next-el-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.next-el-btn p, .prev-el-btn p{
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 5px;
+    letter-spacing: 2px;
+}
+
+.prev-el-btn p{
+    margin-left: 1rem;
+}
+
+.next-el-btn p{
+    margin-right: 1rem;
+}
+
+.prev-el-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.next-el-btn svg, .prev-el-btn svg{
+    font-size: 60px;
+}
+
+@media (max-width: 1450px){
+    .next-el-btn p, .prev-el-btn p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1250px){
+    .next-el-btn svg, .prev-el-btn svg{
+        font-size: 50px;
+    }
+    .next-el-btn, .prev-el-btn{
+        top: 38%;
+    }
+    .next-el-btn p, .prev-el-btn p{
+        font-size: 12px;
+    }
+    .prev-el-btn p{
+        margin-left: .5rem;
+    }
+    .next-el-btn p{
+        margin-right: .5rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .next-el-btn svg, .prev-el-btn svg{
+        font-size: 40px;
+    }
+    .prev-el-btn p{
+        margin-left: .3rem;
+    }
+    .next-el-btn p{
+        margin-right: .3rem;
+    }
+}
+
+@media (max-width: 1100px){
+    .next-el-btn svg, .prev-el-btn svg{
+        font-size: 30px;
+    }
+    .next-el-btn p, .prev-el-btn p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 900px){
+    .next-el-btn svg, .prev-el-btn svg{
+        font-size: 25px;
+    }
+    .next-el-btn p, .prev-el-btn p{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 775px){
+    .swiper-container{
+        padding-bottom: 70px;
+    }
+    .next-el-btn{
+        top: 110%;
+        right: 20px;
+    }
+    .prev-el-btn{
+        top: 110%;
+        left: 20px;
+    }
+    .next-el-btn svg, .prev-el-btn svg{
+        font-size: 35px;
+    }
+    .next-el-btn p, .prev-el-btn p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px){
+    .next-el-btn{
+        top: 110%;
+        right: 0;
+    }
+    .prev-el-btn{
+        top: 110%;
+        left: 0;
+    }
+}
+
+@media (max-width: 550px){
+    .next-el-btn svg, .prev-el-btn svg{
+        font-size: 30px;
+    }
+    .next-el-btn p, .prev-el-btn p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 475px){
+    .swiper-container{
+        padding-bottom: 60px;
+    }
+}

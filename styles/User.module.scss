@@ -1,0 +1,492 @@
+.root{
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 100px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .personalDetails{
+        font-family: 'Montserrat', sans-serif;
+        width: 35%;
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            li{
+                margin-bottom: 40px;
+                font-weight: 700;
+                font-size: 32px;    
+                text-transform: uppercase;
+            }
+            .endSession{
+                margin-top: 60px;
+                cursor: pointer;
+            }
+        }
+    }
+    .newsletter{
+        width: 65%;
+    }
+    .userDetails{
+        width: 65%;
+        display: flex;
+        align-items: center;
+        .form{
+            margin-right: 3rem;
+            .title{
+                font-size: 32px;
+                margin-bottom: 2rem;
+                text-transform: uppercase;
+            }
+            .description{
+                font-size: 18px;
+                line-height: 1.2;
+                letter-spacing: 1.5px;
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+            .changeBtns{
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                button{
+                    text-transform: uppercase;
+                    &:not(:last-child){
+                        margin-right: 1rem;
+                    }
+                }
+            }
+            .inputsFlex{
+                margin-top: 5rem;
+                display: flex;
+                align-items: flex-start;
+            }
+            .submit{
+                display: flex;
+                align-items: center;
+                margin-top: 5rem;
+                button{
+                    text-transform: uppercase;
+                    &:not(:last-child){
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.goBack{
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    padding-left: 200px;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 1740px){
+    .root{
+        padding-left: 150px;
+    }
+    .goBack{
+        padding-left: 150px;
+    }
+}
+
+@media (max-width: 1700px){
+    .root{
+        .newsletter{
+            input{
+                width: 700px;
+            }
+        }
+        .userDetails{
+            margin-right: 0;
+            margin-left: 3rem;
+        }
+    }
+}
+
+@media (max-width: 1650px){
+    .root{
+        .userDetails{
+            width: 60%;
+        }
+    }
+}
+
+@media (max-width: 1600px){
+    .root{
+        .personalDetails{
+            width: 40%;
+        }
+        .newsletter{
+            width: 60%;
+            input{
+                width: 100%;
+            }
+            div{
+                &:first-child{
+                    padding-right: 0;
+                    padding-left: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1550px){
+    .root{
+        .userDetails{
+            .form{
+                .title{
+                    font-size: 28px;
+                }
+                .description{
+                    font-size: 16px;
+                }
+                .changeBtns{
+                    button{
+                        width: 100%;
+                        padding: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1450px){
+    .root{
+        padding-left: 100px;
+        .personalDetails{
+            width: 45%;
+        }
+        .newsletter{
+            width: 55%;
+            div{
+                &:first-child{
+                    padding-left: 100px;
+                }
+            }
+        }
+    }
+    .goBack{
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 1400px){
+    .root{
+        .userDetails{
+            .form{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1350px){
+    .root{
+        .personalDetails{
+            ul{
+                li{
+                    font-size: 26px;
+                }
+            }
+        }
+        .newsletter{
+            div{
+                &:first-child{
+                    padding-left: 50px;
+                }
+            }
+        }
+        .userDetails{
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 1300px){
+    .root{
+        .userDetails{
+            .form{
+                .title{
+                    font-size: 26px;
+                    margin-bottom: 1rem;
+                }
+                .description{
+                    font-size: 14px;
+                }
+                .changeBtns{
+                    flex-wrap: wrap;
+                    button{
+                        margin-bottom: 1rem;
+                        &:nth-child(1){
+                            width: 48%;
+                        }
+                        &:nth-child(2){
+                            width: 48%;
+                        }
+                        &:nth-child(3){
+                            width: 98%;
+                        }
+                        &:not(:last-child){
+                            margin-right: 2% !important;
+                        }
+                        font-size: 12px !important;
+                    }
+                }
+                .submit{
+                    margin-top: 3rem;
+                    button{
+                        width: 48%;
+                        &:not(:last-child){
+                            margin-right: 2% !important;
+                        }
+                        font-size: 12px !important;
+                    }
+                }
+                .inputsFlex{
+                    justify-content: center;
+                    margin-top: 3rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1150px){
+    .root{
+        padding: 0 50px;
+    }
+    .goBack{
+        padding-left: 50px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1050px){
+    .root{
+        .personalDetails{
+            ul{
+                li{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .root{
+        flex-direction: column;
+        height: 100%;
+        margin-top: 40px;
+        .personalDetails{
+            width: 100%;
+            text-align: center;
+        }
+        .newsletter{
+            width: 100%;
+            padding: 50px 0;
+            div{
+                &:first-child{
+                    height: 100% !important;
+                    padding-left: 0;
+                }
+            }
+        }
+        .userDetails{
+            width: 100%;
+            margin: 2rem 0;
+            .description, .title{
+                text-align: center;
+            }
+            .form{
+                .changeBtns{
+                    justify-content: center;
+                    button{
+                        width: 30% !important;
+                    }
+                }
+                .submit{
+                    justify-content: center;
+                    button{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .root{
+        .userDetails{
+            .form{
+                .title{
+                    font-size: 24px;
+                }
+                .changeBtns{
+                    button{
+                        &:nth-child(2){
+                            margin-right: 0 !important;
+                        }
+                        width: 45% !important;
+                    }
+                }
+                .submit{
+                    button{
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+    .goBack{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px){
+    .root{
+        .personalDetails{
+            ul{
+                li{
+                    font-size: 22px;
+                }
+                .endSession{
+                    margin-top: 30px;
+                }
+            }
+        }
+        .userDetails{
+            .form{
+                width: 100%;
+                .title{
+                    font-size: 22px;
+                }
+                .description{
+                    font-size: 12px;
+                }
+                .changeBtns{
+                    button{
+                        width: 100% !important;
+                        &:nth-child(1){
+                            margin-right: 0px !important;
+                        }
+                    }
+                }
+                .inputsFlex{
+                    flex-direction: column;
+                    .col{
+                        width: 100%;
+                        span{
+                            text-align: center;
+                        }
+                        input{
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .root{
+        padding: 0 25px;
+        .personalDetails{
+            ul{
+                li{
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+                .endSession{
+                    margin-top: 20px;
+                }
+            }
+        }
+        .newsletter{
+            padding-top: 70px;
+        }
+        .userDetails{
+            .form{
+                .title{
+                    font-size: 20px;
+                }
+                .description{
+                    font-size: 10px;
+                }
+                .inputsFlex, .submit{
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+    }
+    .goBack{
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 450px){
+    .root{
+        .newsletter{
+            h1{
+                margin-bottom: 40px;
+            }
+        }
+        .userDetails{
+            .form{
+                .submit{
+                    flex-direction: column;
+                    button{
+                        width: 100%;
+                        &:not(:last-child){
+                            margin-right: 0 !important;
+                            margin-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .goBack{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px){
+    .root{
+        .personalDetails{
+            ul{
+                li{
+                    font-size: 18px;
+                }
+            }
+        }
+        .newsletter{
+            padding-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 350px){
+    .root{
+        .personalDetails{
+            ul{
+                li{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

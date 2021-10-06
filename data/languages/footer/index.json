@@ -1,0 +1,14 @@
+{
+    "enter": {
+        "en": "ENTER YOUR E-MAIL HERE",
+        "ru": "ВВЕДИТЕ СВОЙ E-MAIL"
+    },
+    "join": {
+        "en": "JOIN OUR NEWSLETTER",
+        "ru": "ПОДПИШИСЬ НА НАШУ РАССЫЛКУ"
+    },
+    "submit": {
+        "en": "submit",
+        "ru": "подписаться"
+    }
+}

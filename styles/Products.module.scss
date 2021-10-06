@@ -1,0 +1,1237 @@
+.root{
+    padding: 2rem;
+
+    .emptyProducts{
+        text-align: center;
+        margin: 50px 0;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+
+    .productsParams{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .viewRange{
+            padding-left: 200px;
+            margin-bottom: 50px;
+            label{
+                display: flex;
+                flex-direction: column;
+                span{
+                    font-size: 16px;
+                    margin-bottom: 1rem;
+                    text-transform: uppercase;
+                }
+                input{
+                    width: 250px;
+                }
+                input[type=range] {
+                    height: 25px;
+                    -webkit-appearance: none;
+                }
+                input[type=range]:focus {
+                    outline: none;
+                }
+                input[type=range]::-webkit-slider-runnable-track {
+                    width: 100%;
+                    height: 3px;
+                    cursor: pointer;
+                    animate: 0.2s;
+                    box-shadow: 1px 1px 1px #000000;
+                    background: #000000;
+                    border-radius: 0px;
+                    border: 1px solid #000000;
+                }
+                input[type=range]::-webkit-slider-thumb {
+                    box-shadow: 1px 1px 1px #000000;
+                    border: 1px solid #000000;
+                    height: 17px;
+                    width: 17px;
+                    border-radius: 50px;
+                    background: #000000;
+                    cursor: pointer;
+                    -webkit-appearance: none;
+                    margin-top: -8px;
+                }
+                input[type=range]:focus::-webkit-slider-runnable-track {
+                    background: #000000;
+                }
+                input[type=range]::-moz-range-track {
+                    width: 100%;
+                    height: 3px;
+                    cursor: pointer;
+                    animate: 0.2s;
+                    box-shadow: 1px 1px 1px #000000;
+                    background: #000000;
+                    border-radius: 0px;
+                    border: 1px solid #000000;
+                }
+                input[type=range]::-moz-range-thumb {
+                    box-shadow: 1px 1px 1px #000000;
+                    border: 1px solid #000000;
+                    height: 17px;
+                    width: 17px;
+                    border-radius: 50px;
+                    background: #000000;
+                    cursor: pointer;
+                }
+                input[type=range]::-ms-track {
+                    width: 100%;
+                    height: 3px;
+                    cursor: pointer;
+                    animate: 0.2s;
+                    background: transparent;
+                    border-color: transparent;
+                    color: transparent;
+                }
+                input[type=range]::-ms-fill-lower {
+                    background: #000000;
+                    border: 1px solid #000000;
+                    border-radius: 0px;
+                    box-shadow: 1px 1px 1px #000000;
+                }
+                input[type=range]::-ms-fill-upper {
+                    background: #000000;
+                    border: 1px solid #000000;
+                    border-radius: 0px;
+                    box-shadow: 1px 1px 1px #000000;
+                }
+                input[type=range]::-ms-thumb {
+                    margin-top: 1px;
+                    box-shadow: 1px 1px 1px #000000;
+                    border: 1px solid #000000;
+                    height: 17px;
+                    width: 17px;
+                    border-radius: 50px;
+                    background: #000000;
+                    cursor: pointer;
+                }
+                input[type=range]:focus::-ms-fill-lower {
+                    background: #000000;
+                }
+                input[type=range]:focus::-ms-fill-upper {
+                    background: #000000;
+                }
+            }
+        }
+        .filter{
+            margin-right: 2rem;
+            span{
+                font-size: 16px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .product_parent{
+        width: 100%;
+        margin-top: 50px;
+        .product_inline{
+            display: flex;
+            justify-content: space-between;
+            .product_card_unImage{
+                margin-top: 115px;
+                padding-left: 200px;
+
+                h2{
+                    font-weight: 800;
+                    font-family: 'Montserrat';
+                    font-size: 26px;
+                    line-height: 43px;
+                    letter-spacing: 0.2em;
+                    margin-bottom: 20px;
+                }
+                p{
+                    margin-right: 1rem;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 19px;
+                    letter-spacing: 0.1em;
+                }
+            }
+            .productShoesContainer{
+                display: flex;
+                .product_card{
+                    border: 0;
+                    position: relative;
+                    cursor: pointer;
+                    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+                    &:not(:last-child){
+                        margin: 0 1rem;
+                    }
+                    .boots_image{
+                        width: 440px;
+                        object-fit: fill;
+                    }
+                    .product_abs_icon{
+                        z-index: 101;
+                        position: absolute;
+                        top: 2%;
+                        right: 1%;
+            
+                        svg{
+                            font-size: 25px;
+                            margin: 0 12.5px;
+                            cursor: pointer;
+                            &:hover{
+                                color: rgba(0, 0, 0, .4);
+                            }
+                        }
+                    }
+            
+                    .product_card_title{
+                        h3{
+                            font-weight: 600;
+                            font-family: 'Montserrat';
+                            font-size: 18px;
+                            line-height: 21px;
+                            margin: 10px;
+                            text-transform: uppercase;
+                            text-align: center;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        p{
+                            text-transform: uppercase;
+                            margin-top: 5px;
+                            font-size: 13px;
+                            font-weight: 600;
+                            font-family: 'Montserrat';
+                            background: #3F3E4E;
+                            display: inline-flex;
+                            color: white;
+                            cursor: pointer;
+                            padding: 5px 5px;
+                            width: 100%;
+                            text-align: center;
+                            span{
+                                display: block;
+                                width: inherit;
+                                text-align: center;
+                                font-size: 18px;
+                                padding: .5rem 0;
+                            }
+                        }
+                    }
+                    .hoveredImages{
+                        position: absolute;
+                        top: 0%;
+                        display: flex;
+                        width: 100%;
+                        height: 83%;
+                        z-index: 100;
+                        &:hover{
+                            div{
+                                opacity: 1;
+                            }
+                        }
+                        .hoveredItem{
+                            opacity: 0;
+                            width: 100%;
+                            height: 100%;
+                            border-bottom: 3px solid rgba(0, 0, 0, 0.5);;
+                            margin: 5px;
+                            &:hover{
+                                border-bottom: 3px solid rgba(0, 0, 0, 0.1);;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Gallery 
+
+    .product_gallery_parent{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        .product_gallery_inline{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .viewType1{
+                width: 24%;
+                img {
+                    height: 500px;
+                }
+
+                svg{
+                    font-size: 25px;
+                    margin: 0 12.5px;
+                }
+            }
+            
+            .viewType2{
+                width: 19%;
+                img {
+                    height: 450px;
+                }
+                svg{
+                    font-size: 25px;
+                    margin: 0 12.5px;
+                }
+                .hoveredImages{
+                    height: 83% !important;
+                }
+            }
+
+            .viewType3{
+                width: 11%;
+                margin: 10px 0.5% !important;
+                img {
+                    height: 250px;
+                }
+                svg{
+                    font-size: 20px;
+                    margin: 0 5px;
+                }
+                .hoveredImages{
+                    height: 95% !important;
+                }
+            }
+
+            .gallery_card{
+                position: relative;
+                margin: 30px 0.5%;
+                // min-width: 400px;
+                cursor: pointer;
+                box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+                img{
+                    width: 100%;
+                    object-fit: fill;
+                }
+
+                .gallery_abs_icon{
+                    z-index: 101;
+                    position: absolute;
+                    top: 2%;
+                    right: 1%;
+
+                    svg{
+                        cursor: pointer;
+                        opacity: 0;
+                        &:hover{
+                            color: rgba(0, 0, 0, .4);
+                        }
+                    }
+                }
+
+                .gallery_card_title{
+                    h3{
+                        font-weight: 600;
+                        font-size: 18px;
+                        font-family: 'Montserrat';
+                        line-height: 23px;
+                        margin: 10px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    p{
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-size: 13px;
+                        font-family: 'Montserrat';
+                        line-height: 13px;
+                        background: #3F3E4E;
+                        padding: 5px 5px;
+                        display: inline-flex;
+                        color: white;
+                        width: 100%;
+                        text-align: center;
+                        span{
+                            display: block;
+                            width: inherit;
+                            text-align: center;
+                            font-size: 18px;
+                            padding: .5rem 0;
+                        }
+                    }
+                }
+                .hoveredImages{
+                    position: absolute;
+                    top: 0%;
+                    display: flex;
+                    width: 100%;
+                    height: 85%;
+                    z-index: 100;
+                    &:hover{
+                        div{
+                            opacity: 1;
+                        }
+                    }
+                    .hoveredItem{
+                        opacity: 0;
+                        width: 100%;
+                        height: 100%;
+                        border-bottom: 3px solid rgba(0, 0, 0, 0.5);;
+                        margin: 5px;
+                        &:hover{
+                            border-bottom: 3px solid rgba(0, 0, 0, 0.1);;
+                        }
+                    }
+                }
+            }
+
+            .gallery_card:hover .gallery_abs_icon svg{
+                opacity: 1;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+.likedSvg{
+    color: rgb(237, 73, 86);
+}
+
+
+
+@media (max-width: 1750px){
+    .root{
+        .product_gallery_parent{
+            .product_gallery_inline{
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 1700px){
+    .root{
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .gallery_card{
+                    width: 31%;
+                }
+            }
+            .viewType2{
+                width: 19% !important;
+            }
+            .viewType3{
+                width: 11% !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 1650px){
+    .root{
+        .productsParams{
+            .viewRange{
+                padding-left: 150px;
+            }
+        }
+        
+        .product_parent{
+            .product_inline{
+                .product_card_unImage{
+                    padding-left: 150px;
+                }
+            }
+        }
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .gallery_card{
+                    width: 32%;
+                }
+            }
+            .viewType2{
+                width: 24% !important;
+            }
+            .viewType3{
+                width: 13% !important;
+                height: 100% !important;
+                img{
+                    height: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1550px){
+    .root{
+        .productsParams{
+            .viewRange{
+                padding-left: 50px;
+            }
+        }
+        .product_parent{
+            .product_inline{
+                .product_card_unImage{
+                    padding-left: 50px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1499px){
+    .root{
+        .product_gallery_parent{
+            .product_gallery_inline{
+                justify-content: center;
+                .gallery_card{
+                    margin: 15px 0.5%;
+                }
+            }
+            margin-top: 50px;
+        }
+        .product_card_unImage{
+            width: 50%;
+        }
+        .productShoesContainer{
+            width: 34%;
+            .product_card{
+                width: 100%;
+                .boots_image{
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1450px){
+    .root{
+        .emptyProducts{
+            font-size: 32px;
+        }
+    }
+}
+
+@media (max-width: 1400px){
+    .root{
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .gallery_card{
+                    width: 32%;
+                }
+                .viewType2{
+                    .hoveredImages{
+                        height: 80% !important;
+                    }
+                }
+            }
+            .viewType2{
+                height: 100%;
+                img{
+                    height: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1350px){
+    .root{
+        .product_gallery_parent{
+            margin-top: 20px;
+        }
+        .product_parent{
+            margin-top: 20px;
+        }
+        .viewType2{
+            .hoveredImages{
+                height: 80% !important;
+            }
+        }
+        .viewType3{
+            svg{
+                font-size: 15px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px){
+    .root{
+        .viewType2{
+            .hoveredImages{
+                height: 77% !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 1250px){
+    .root{
+        .emptyProducts{
+            font-size: 28px;
+        }
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType1 {
+                    img{
+                        height: 100%;
+                    }
+                    .hoveredImages{
+                        height: 80% !important;
+                    }
+                }
+                .viewType2{
+                    .hoveredImages{
+                        height: 78% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .root{
+        .product_parent{
+            .product_inline{
+                .product_card_unImage{
+                    h2{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType1{
+                    .hoveredImages{
+                        height: 83%;
+                    }
+                }
+                .viewType2{
+                    .hoveredImages{
+                        height: 77% !important;
+                    }
+                }
+                .gallery_card{
+                    .gallery_card_title{
+                        p{
+                            font-size: 11px;
+                            text-align: center;
+                            width: 100%;
+                            span{
+                                font-size: 14px;
+                            }
+                            a{
+                                width: 100%;
+                            }
+                        }
+                        h3{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .product_parent{
+            .product_inline{
+                .productShoesContainer{
+                    .product_card{
+                        .product_card_title{
+                            h3{
+                                font-size: 16px;
+                            }
+                            p{
+                                font-size: 11px;
+                                text-align: center;
+                                width: 100%;
+                                span{
+                                    font-size: 14px;
+                                }
+                                a{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    .root{
+        .product_parent{
+            .product_inline{
+                .productShoesContainer{
+                    .product_card{
+                        .hoveredImages{
+                            height: 80%;
+                        }
+                    }
+                }
+            }
+        }
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType2{
+                    .hoveredImages{
+                        height: 76% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1050px){
+    .root{
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType1{
+                    .hoveredImages{
+                        height: 81%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .root{
+        padding: 1rem;
+        .emptyProducts{
+            font-size: 24px;
+            margin: 120px 0;
+            margin-bottom: 50px;
+        }
+        .product_parent{
+            .product_inline{
+                .product_card_unImage{
+                    padding-left: 30px;
+                }
+                .productShoesContainer{
+                    .product_card{
+                        .product_abs_icon{
+                            svg{
+                                font-size: 22px;
+                                margin: 0 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .product_gallery_parent{
+            margin-bottom: 50px;
+            .product_gallery_inline{
+                .viewType1{
+                    svg{
+                        font-size: 22px;
+                        margin: 0 12px;
+                    }
+                }
+                .viewType2{
+                    margin: 7px .5%;
+                    .gallery_card_title{
+                        h3{
+                            font-size: 13px;
+                        }
+                        p{
+                            font-size: 9px;
+                        }
+                    }
+                }
+                .viewType3{
+                    width: 15% !important;
+                }
+                .gallery_card{
+                    .gallery_abs_icon{
+                        svg{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .productsParams{
+            margin-bottom: 50px;
+            .viewRange{
+                margin-bottom: 0;
+                label{
+                    span{
+                        font-size: 14px;
+                        margin-bottom: .8rem;
+                    }
+                    input{
+                        width: 200px;
+                    }
+                }
+            }
+            .filter{
+                span{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 850px){
+    .root{
+        .product_parent{
+            .product_inline{
+                .productShoesContainer{
+                    .product_card{
+                        .product_card_title{
+                            p{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+                .product_card_unImage{
+                    width: 65%;
+                    h2{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .gallery_card{
+                    .gallery_card_title{
+                        p{
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .viewType1{
+                    .hoveredImages{
+                        height: 79%;
+                    }
+                }
+                .viewType2{
+                    margin: 7px .5%;
+                    .gallery_card_title{
+                        h3{
+                            margin: 5px;
+                            font-size: 12px;
+                        }
+                        p{
+                            font-size: 9px;
+                        }
+                    }
+                }
+                .viewType3{
+                    svg{
+                        font-size: 12px !important;
+                        margin: 0 5px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .root{
+        .product_parent{
+            .product_inline{
+                .productShoesContainer{
+                    .product_card{
+                        .product_abs_icon{
+                            svg{
+                                font-size: 18px;
+                                margin: 0 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .gallery_card{
+                    .gallery_abs_icon{
+                        svg{
+                            font-size: 18px;
+                            margin: 0 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .root{
+        .emptyProducts{
+            font-size: 20px;
+            margin: 150px 0;
+            margin-bottom: 10px;
+        }
+        .productShoesContainer{
+            width: 40%;
+        }
+        .productsParams{
+            .viewRange{
+                padding-left: 0;
+            }
+            .filter{
+                margin-right: 0;
+            }
+        }
+        .product_parent{
+            .product_inline{
+                .product_card_unImage{
+                    width: 55%;
+                    padding-left: 0;
+                    h2{
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px){
+    .root{
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType1{
+                    .hoveredImages{
+                        height: 80%;
+                    }
+                }
+                .viewType2{
+                    width: 32% !important;
+                }
+                .gallery_card{
+                    width: 49%;
+                    margin: 5px .5%;
+                    .hoveredImages{
+                        .hoveredItem{
+                            border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+                            &:hover{
+                                border-bottom: 2px solid rgba(0, 0, 0, 0.1);;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .product_parent{
+            .product_inline{
+                .productShoesContainer{
+                    .product_card{
+                        .hoveredImages{
+                            height: 80%;
+                            .hoveredItem{
+                                border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+                                &:hover{
+                                    border-bottom: 2px solid rgba(0, 0, 0, 0.1);;
+                                }
+                            }
+                        }
+                    }
+                }
+                .product_card_unImage{
+                    width: 50%;
+                }
+            }
+        }
+        .productShoesContainer{
+            width: 50%;
+        }
+        .productsParams{
+            margin-bottom: 30px;
+            .viewRange{
+                label{
+                    span{
+                        font-size: 12px;
+                    }
+                }
+            }
+            .viewRange{
+                label{
+                    input{
+                        width: 180px;
+                    }
+                    input[type=range] {
+                        height: 15px;
+                    }
+                    input[type=range]::-webkit-slider-runnable-track {
+                        height: 2px;
+                    }
+                    input[type=range]::-webkit-slider-thumb {
+                        height: 14px;
+                        width: 14px;
+                        margin-top: -7px;
+                    }
+                    input[type=range]::-moz-range-track {
+                        height: 2px;
+                    }
+                    input[type=range]::-moz-range-thumb {
+                        height: 14px;
+                        width: 14px;
+                    }
+                    input[type=range]::-ms-track {
+                        height: 2px;
+                    }
+                    input[type=range]::-ms-thumb {
+                        height: 14px;
+                        width: 14px;
+                    }
+                }
+            }
+            .filter{
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px){
+    .root{
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType3{
+                    width: 19% !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px){
+    .root{
+        .product_parent{
+            .product_inline{
+                flex-direction: column;
+                .product_card_unImage{
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 30px;
+                    p{
+                        margin-right: 0;
+                    }
+                }
+                .productShoesContainer{
+                    width: 65%;
+                    margin: 0 auto;
+                    .product_card{
+                        .product_card_title{
+                            h3{
+                                font-size: 13px;
+                            }
+                            p{
+                                span{
+                                    font-size: 12px;
+                                }
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType2{
+                    .gallery_card_title{
+                        h3{
+                            font-size: 11px !important;
+                        }
+                    }
+                }
+                .gallery_card{
+                    .gallery_card_title{
+                        h3{
+                            font-size: 13px;
+                        }
+                        p{
+                            span{
+                                font-size: 12px;
+                            }
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .root{
+        padding: .8rem;
+        .emptyProducts{
+            margin-top: 100px;
+        }
+        .product_gallery_parent{
+            margin-bottom: 10px;
+            .product_gallery_inline{
+                .viewType1{
+                    .hoveredImages{
+                        height: 77%;
+                    }
+                }
+                .viewType3{
+                    svg{
+                        font-size: 10px !important;
+                        margin: 0 3px !important;
+                    }
+                }
+                .gallery_card{
+                    .gallery_abs_icon{
+                        svg{
+                            font-size: 14px;
+                            margin: 0 6px;
+                        }
+                    }
+                }
+            }
+        }
+        .product_parent{
+            .product_inline{
+                .productShoesContainer{
+                    width: 60%;
+                }
+                .product_card_unImage{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px){
+    .root{
+        .emptyProducts{
+            font-size: 18px;
+        }
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType2{
+                    width: 48% !important;
+                }
+                .viewType3{
+                    width: 24% !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px){
+    .root{
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType1{
+                    .hoveredImages{
+                        height: 70%;
+                    }
+                }
+                .gallery_card{
+                    width: 48%;
+                    margin: 5px 1%; 
+                    .gallery_card_title{
+                        h3{
+                            font-size: 10px;
+                        }
+                        p{
+                            span{
+                                font-size: 10px;
+                            }
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        .productsParams{
+            flex-direction: column;
+            .viewRange{
+                width: 100%;
+                label{
+                    input{
+                        width: 100%;
+                    }
+                }
+            }
+            .filter{
+                margin-top: 20px;
+                width: 100%;
+                text-align: right;
+            }
+        }
+        .product_parent{
+            .product_inline{
+                .productShoesContainer{
+                    .product_card{
+                        .product_abs_icon{
+                            svg{
+                                font-size: 14px;
+                                margin: 0 6px;
+                            }
+                        }
+                        .hoveredImages{
+                            height: 75%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 350px){
+    .root{
+        .emptyProducts{
+            font-size: 16px;
+        }
+        .product_parent{
+            .product_inline{
+                .productShoesContainer{
+                    width: 65%;
+                    .product_card{
+                        .hoveredImages{
+                            height: 73%;
+                        }
+                    }
+                }
+            }
+        }
+        .product_gallery_parent{
+            .product_gallery_inline{
+                .viewType3{
+                    width: 32% !important;
+                }
+                .viewType1{
+                    .hoveredImages{
+                        height: 69%;
+                    }
+                }
+            }
+        }
+    }
+}

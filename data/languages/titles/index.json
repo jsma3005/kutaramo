@@ -1,0 +1,46 @@
+{
+    "main": {
+        "en": "Main",
+        "ru": "Главная"
+    },
+    "login": {
+        "en": "Login",
+        "ru": "Авторизация"
+    },
+    "register": {
+        "en": "Register",
+        "ru": "Регистрация"
+    },
+    "user": {
+        "en": "User",
+        "ru": "Пользователь"
+    },
+    "userDetails": {
+        "en": "User details",
+        "ru": "Персональные данные"
+    },
+    "purchases": {
+        "en": "Purchases",
+        "ru": "Покупки"
+    },
+    "search": {
+        "en": "Search",
+        "ru": "Поиск"
+    },
+    "products": {
+        "en": "Products",
+        "ru": "Товары"
+    },
+    "favorites": {
+        "en": "Favorites",
+        "ru": "Избранные"
+    },
+    "cart": {
+        "en": "Cart",
+        "ru": "Корзина"
+    },
+    "ordering": {
+        "en": "Ordering",
+        "ru": "Оформление заказа"
+    }
+}

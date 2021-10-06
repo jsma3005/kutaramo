@@ -1,0 +1,26 @@
+{
+    "cartTitle": {
+        "en": "cart",
+        "ru": "корзина"
+    },
+    "goBack": {
+        "en": "go back",
+        "ru": "назад"
+    },
+    "emptyCart": {
+        "en": "Cart is empty!",
+        "ru": "Корзина пуста!"
+    },
+    "total": {
+        "en": "total price",
+        "ru": "общая сумма"
+    },
+    "continue": {
+        "en": "continue",
+        "ru": "продолжить"
+    },
+    "update": {
+        "en": "update",
+        "ru": "обновить"
+    }
+}

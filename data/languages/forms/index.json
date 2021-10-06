@@ -1,0 +1,66 @@
+{
+    "name": {
+        "en": "name",
+        "ru": "имя"
+    },
+    "lastName": {
+        "en": "last name",
+        "ru": "фамилия"
+    },
+    "address": {
+        "en": "address",
+        "ru": "адрес"
+    },
+    "city": {
+        "en": "city / town",
+        "ru": "город / поселок"
+    },
+    "phone": {
+        "en": "phone number",
+        "ru": "номер телефона"
+    },
+    "postcode": {
+        "en": "postcode / zip",
+        "ru": "почтовый индекс"
+    },
+    "email": {
+        "en": "e-mail",
+        "ru": "почта"
+    },
+    "password": {
+        "en": "password",
+        "ru": "пароль"
+    },
+    "newPassword": {
+        "en": "new password",
+        "ru": "новый пароль"
+    },
+    "repeatPassword": {
+        "en": "repeat password",
+        "ru": "повторить пароль"
+    },
+    "comment": {
+        "en": "comment",
+        "ru": "комментарий"
+    },
+    "companyName": {
+        "en": "Company name",
+        "ru": "Название компании"
+    },
+    "inn": {
+        "en": "INN",
+        "ru": "ИНН"
+    },
+    "kpp": {
+        "en": "KPP",
+        "ru": "КПП"
+    },
+    "orderAddress": {
+        "en": "адрес заказа",
+        "ru": "Order address"
+    },
+    "contactFace": {
+        "en": "сontact face",
+        "ru": "контактное лицо"
+    }
+}

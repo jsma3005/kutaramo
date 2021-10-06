@@ -1,0 +1,70 @@
+{
+    "view": {
+        "en": "view",
+        "ru": "вид"
+    },
+    "filter": {
+        "en": "filter",
+        "ru": "фильтр"
+    },
+    "hidePrice": {
+        "en": "LOG IN / SIGN UP TO SEE A PRICE",
+        "ru": "Авторизуйтесь, чтобы увидеть цену"
+    },
+    "back": {
+        "en": "go back",
+        "ru": "назад"
+    },
+    "addCart": {
+        "en": "Add to cart",
+        "ru": "Добавить в корзину"
+    },
+    "addedToCart": {
+        "en": "added to cart",
+        "ru": "уже в корзине"
+    },
+    "addFav": {
+        "en": "add to favorites",
+        "ru": "нравится"
+    },
+    "addedToFav": {
+        "en": "added to favorites",
+        "ru": "уже в избранных"
+    },
+    "size": {
+        "en": "size",
+        "ru": "размер"
+    },
+    "amount": {
+        "en": "amount",
+        "ru": "количество"
+    },
+    "total": {
+        "en": "total",
+        "ru": "сумма"
+    },
+    "type": {
+        "en": "color / type",
+        "ru": "цвет / тип"
+    },
+    "articule": {
+        "en": "set number",
+        "ru": "артикул"
+    },
+    "color": {
+        "en": "color",
+        "ru": "цвет"
+    },
+    "removeFav": {
+        "en": "Remove from favorites",
+        "ru": "Удалить из избранных"
+    },
+    "removeCart": {
+        "en": "Remove from cart",
+        "ru": "Удалить из корзины"
+    },
+    "notFound": {
+        "en": "Nothing found!",
+        "ru": "Ничего не найдено!"
+    }
+}

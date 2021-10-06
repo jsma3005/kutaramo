@@ -1,0 +1,293 @@
+.item {
+    display: flex;
+    align-items: center;
+    width: 46%;
+    margin: 0 2%;
+    margin-bottom: 70px;
+    .avatar{
+        margin-right: 30px;
+        padding: 30px;
+        cursor: pointer;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        img{
+            width: 300px;
+        }
+    }
+    .info{
+        .title{
+            cursor: pointer;
+            height: 65px;
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 30px;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .description{
+            margin-bottom: 40px;
+        }
+        .price{
+            text-transform: capitalize;
+            margin-bottom: 40px;
+            span{
+                margin-left: 20px;
+            }
+        }
+        .color{
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            span{
+                // box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                width: 25px;
+                height: 25px;
+                display: block;
+                margin-left: 20px;
+                border-radius: 50%;
+            }
+        }
+        .size, .amount{
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            span{
+                margin-left: 20px;
+            }
+        }
+        .deleteFavBtn{
+            margin-top: 10px;
+        }
+    }
+}
+
+
+@media (max-width: 1750px){
+    .item{
+        .info{
+            .title{
+                font-size: 28px;
+                height: 60px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1650px){
+    .item{
+        .info{
+            .title{
+                margin-bottom: 20px;
+            }
+            .description{
+                margin-bottom: 30px;
+            }
+            .price{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1550px){
+    .item{
+        .info{
+            .title{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1450px){
+    .item{
+        .info{
+            .title{
+                font-size: 24px;
+                height: 55px;
+            }
+            .price{
+                margin-bottom: 20px;
+            }
+            button{
+                padding: 15px 0;
+                font-size: 12px !important;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1250px){
+    .item{
+        width: 100%;
+        .avatar{
+            width: 400px;
+            min-width: 400px;
+        }
+        .info{
+            .title{
+                font-size: 32px;
+            }
+            p{
+                font-size: 18px;
+            }
+            button{
+                display: block;
+                padding: 17px 0;
+                font-size: 14px !important;
+            }
+        }
+    } 
+}
+
+@media (max-width: 992px){
+    .item{
+        .avatar{
+            width: 350px;
+            min-width: 350px;
+        }
+    } 
+}
+
+@media (max-width: 950px){
+    .item{
+        .info{
+            .title{
+                font-size: 25px;
+                height: 65px;
+            }
+            p{
+                font-size: 16px;
+            }
+            button{
+                padding: 15px 0;
+                font-size: 12px !important;
+            }
+        }
+    } 
+}
+
+@media (max-width: 850px){
+    .item{
+        .avatar{
+            width: 300px;
+            min-width: 300px;
+            img {
+                width: 100%;
+            }
+        }
+    } 
+}
+
+@media (max-width: 800px){
+    .item{
+        .avatar{
+            width: 250px;
+            min-width: 250px;
+        }
+        .info{
+            .title{
+                font-size: 22px;
+                height: 55px;
+            }
+            p{
+                font-size: 14px;
+            }
+            .description{
+                margin-bottom: 20px;
+            }
+            .price{
+                margin-bottom: 20px;
+            }
+        }
+    } 
+}
+
+@media (max-width: 700px){
+    .item{
+        margin-right: 0;
+        margin-left: 0;
+        .avatar{
+            width: 250px;
+            min-width: 250px;
+        }
+        .info{
+            .title{
+                font-size: 20px;
+                height: 50px;
+            }
+        }
+    } 
+}
+
+@media (max-width: 650px){
+    .item{
+        flex-direction: column;
+        &:not(:last-child){
+            border-bottom: 1px solid #000;
+        }
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        .avatar{
+            width: 80%;
+            margin-bottom: 20px;
+            margin-right: 0;
+        }
+        .info{
+            width: 100%;
+            text-align: center;
+            .title{
+                font-size: 24px;
+            }
+            .title, .color{
+                display: flex;
+                justify-content: center;
+            }
+            p{
+                font-size: 16px;
+            }
+            button{
+                margin: 0 auto;
+            }
+        }
+    } 
+}
+
+@media (max-width: 500px){
+    .item{
+        .avatar{
+            width: 100%;
+        }
+        .info{
+            .title{
+                font-size: 20px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    } 
+}
+
+
+@media (max-width: 400px){
+    .item{
+        .avatar{
+            width: 100%;
+        }
+        .info{
+            .title{
+                font-size: 18px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    } 
+}

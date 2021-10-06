@@ -1,0 +1,38 @@
+{
+    "clear": {
+        "en": "Clear",
+        "ru": "Очистить"
+    },
+    "close": {
+        "en": "close",
+        "ru": "закрыть"
+    },
+    "colors": {
+        "en": "colors",
+        "ru": "цвета"
+    },
+    "price": {
+        "en": "price",
+        "ru": "цена"
+    },
+    "ascending": {
+        "en": "By ascending",
+        "ru": "По возрастанию"
+    },
+    "descending": {
+        "en": "By descending",
+        "ru": "По убыванию"
+    },
+    "additionally": {
+        "en": "additionally",
+        "ru": "дополнительно"
+    },
+    "cart": {
+        "en": "in the cart",
+        "ru": "в корзине"
+    },
+    "favorite": {
+        "en": "in the favorites",
+        "ru": "в избранных"
+    }
+}

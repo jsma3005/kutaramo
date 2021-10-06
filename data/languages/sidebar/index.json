@@ -1,0 +1,14 @@
+{
+    "sale": {
+        "en": "SALE",
+        "ru": "РАСПРОДАЖА"
+    },
+    "showPrice": {
+        "en": "LOG IN / SIGN UP TO SEE A PRICE",
+        "ru": "АВТОРИЗУЙТЕСЬ - УВИДЕТЬ ЦЕНУ"
+    },
+    "only": {
+        "en": "ONLY FOR",
+        "ru": "ВСЕГО ЗА"
+    }
+}

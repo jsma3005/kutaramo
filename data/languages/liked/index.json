@@ -1,0 +1,14 @@
+{
+    "likedTitle": {
+        "en": "favourites",
+        "ru": "избранное"
+    },
+    "goBack": {
+        "en": "go back",
+        "ru": "назад"
+    },
+    "emptyLiked": {
+        "en": "Favourite list is empty!",
+        "ru": "Список избранных пуст!"
+    }
+}

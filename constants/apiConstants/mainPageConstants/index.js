@@ -1,0 +1,1 @@
+export const API_MAINPAGE = '/mainpage/';

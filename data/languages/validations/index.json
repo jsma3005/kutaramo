@@ -1,0 +1,74 @@
+{
+    "email": {
+        "empty": {
+            "en": "Empty email",
+            "ru": "Email не указан"
+        },
+        "incorrect": {
+            "en": "Incorrect email",
+            "ru": "Некорректный email"
+        }
+    },
+    "password": {
+        "empty": {
+            "en": "Empty password",
+            "ru": "Пароль не указан"
+        },
+        "short": {
+            "en": "Password must be more than 6 characters.",
+            "ru": "Пароль должен быть больше 6 символов"
+        },
+        "mismatch": {
+            "en": "Password mismatch",
+            "ru": "Пароли не совпадают"
+        }
+    },
+    "passwordRepeat": {
+        "empty": {
+            "en": "Empty password repeat",
+            "ru": "Пустое поле"
+        }
+    },
+    "name": {
+        "en": "Empty first name",
+        "ru": "Имя не указано"
+    },
+    "lastName": {
+        "en": "Empty last name",
+        "ru": "Фамилия не указана"
+    },
+    "phone": {
+        "empty": {
+            "en": "Empty phone number",
+            "ru": "Телефон не указан"
+        },
+        "incorrect": {
+            "en": "Input correct number phone: +79991234567",
+            "ru": "Введите правильный номер телефона: +79991234567"
+        }
+    },
+    "address": {
+        "en": "Empty address",
+        "ru": "Адрес не указан"
+    },
+    "city": {
+        "en": "Empty city",
+        "ru": "Город не указан"
+    },
+    "inn": {
+        "en": "Empty inn",
+        "ru": "ИНН не указан"
+    },
+    "kpp": {
+        "en": "Empty kpp",
+        "ru": "КПП не указан"
+    },
+    "contact_face": {
+        "en": "Empty contact face",
+        "ru": "Контактное лицо не указано"
+    },
+    "company_name": {
+        "en": "Empty company name",
+        "ru": "Название компании не указано"
+    }
+}

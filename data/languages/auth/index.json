@@ -1,0 +1,40 @@
+{
+    "goBack": {
+        "en": "go back",
+        "ru": "назад"
+    },
+    "login": {
+        "en": "log in",
+        "ru": "авторизация"
+    },
+    "register": {
+        "en": "register",
+        "ru": "регистрация"
+    },
+    "loginBtn": {
+        "en": "sign in",
+        "ru": "войти"
+    },
+    "createBtn": {
+        "en": "create account",
+        "ru": "создать аккаунт"
+    },
+    "forgotPass": {
+        "en": "forgot password?",
+        "ru": "забыли пароль?"
+    },
+    "registerRef": {
+        "part_1": {
+            "en": "IF YOU STILL DON'T HAVE AN ACCOUNT, USE THIS OPTION TO ACCESS THE REGISTRATION FORM.",
+            "ru": "ЕСЛИ У ВАС ЕЩЕ НЕТ УЧЕТНОЙ ЗАПИСИ, ИСПОЛЬЗУЙТЕ ДАННЫЙ ВАРИАНТ, ЧТОБЫ ПРОЙТИ РЕГИСТРАЦИОННУЮ ФОРМУ."
+        },
+        "part_2": {
+            "en": "BY GIVING US YOUR DETAILS, PURCHASING IN {domain} WILL BE FASTER AND AN ENJOYABLE EXPERIENCE.",
+            "ru": "ПРЕДОСТАВЛЯЯ НАМ СВОИ ДАННЫЕ, ПОКУПКИ В МАГАЗИНЕ БУДУТ БЫСТРЕЕ И ЭФФЕКТИВНЕЕ."
+        }
+    },
+    "confirmEmail": {
+        "en": "We have sent you an email. Please follow the link in the mail to confirm and complete the registration!",
+        "ru": "Мы отправили вам письмо на почту. Пожалуйста перейдите по ссылке на почте, чтобы подтвердить и завершить регистрацию!"
+    }
+}

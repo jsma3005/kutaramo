@@ -1,0 +1,46 @@
+{
+    "personalDetails": {
+        "en": "PERSONAL DETAILS",
+        "ru": "ПЕРСОНАЛЬНЫЕ ДАННЫЕ"
+    },
+    "purchases": {
+        "en": "purchases",
+        "ru": "покупки"
+    },
+    "signOut": {
+        "en": "end session",
+        "ru": "выйти из аккаунта"
+    },
+    "resetBtn": {
+        "en": "reset form",
+        "ru": "очистить форму"
+    },
+    "update": {
+        "en": "update",
+        "ru": "обновить"
+    },
+    "password": {
+        "en": "password",
+        "ru": "пароль"
+    },
+    "email": {
+        "en": "email",
+        "ru": "почту"
+    },
+    "change": {
+        "en": "change",
+        "ru": "изменить"
+    },
+    "details": {
+        "en": "details",
+        "ru": "данные"
+    },
+    "back": {
+        "en": "go back",
+        "ru": "назад"
+    },
+    "description": {
+        "en": "YOU CAN ACCESS AND MODIFY YOUR PERSONAL DETAILS (NAME, BILLING ADDRESS, TELEPHONE NUMBER, ETC.) IN ORDER TO FACILITATE YOUR FUTURE PURCHASES AND TO NOTIFY US OF ANY CHANGE IN YOUR CONTACT DETAILS.",
+        "ru": "ВЫ МОЖЕТЕ ИЗМЕНИТЬ СВОИ ЛИЧНЫЕ ДАННЫЕ (ИМЯ, ЭЛЕКТРОННУЮ ПОЧТУ, НОМЕР ТЕЛЕФОНА И Т.Д.), ЧТОБЫ УПРОСТИТЬ ВАШИ БУДУЩИЕ ПОКУПКИ И УВЕДОМЛЕНИЕ ОБ ИЗМЕНЕНИЯХ В ВАШИХ ДАННЫХ."
+    }
+}
